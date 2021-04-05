@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello World"/>
+    <TodoList />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoList from './containers/TodoList/TodoList.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TodoList
   }
-}
+};
 </script>
 
 <style lang="scss">
