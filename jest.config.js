@@ -1,5 +1,6 @@
-const path = require('path');
-
 module.exports = {
-  preset: '@vue/cli-plugin-unit-jest',
-}
+  preset: "@vue/cli-plugin-unit-jest",
+
+  testMatch: ["**/__tests__/**/*.[jt]s?(x)"],
+  testPathIgnorePatterns: [".eslintrc.js"]
+};
